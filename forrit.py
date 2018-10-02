@@ -12,5 +12,5 @@ def index():
 def mynd(mynd):
     return mynd
 
-run(host="localhost",port=8080,debug=True)
-#run(host="0.0.0.0",port=argv[1],debug=False)
+#run(host="localhost",port=8080,debug=True)
+run(host="0.0.0.0",port=argv[1],debug=False)
