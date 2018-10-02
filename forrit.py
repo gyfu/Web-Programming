@@ -1,5 +1,6 @@
 #Höfundur: Huginn Þór Jóhannsson
 from bottle import *
+from sys import argv 
 @route('/hello')
 def helloworld():
     return '''
