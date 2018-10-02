@@ -9,7 +9,7 @@ def error404(error):
 def index():
     return static_file("index.html",root="./index.html")
 @route('/myndir/<mynd>')
-def mynd(mynd)
+def mynd(mynd):
     return mynd
 
 #run(host="localhost",port=8080,debug=True)
