@@ -8,8 +8,9 @@ def error404(error):
 @route('/')
 def index():
     return "Main index page"
-
-#B liður
+@route('/myndir/<mynd>')
+def mynd(mynd):
+    return mynd
 
 #run(host="localhost",port=8080,debug=True)
 run(host="0.0.0.0",port=argv[1],debug=False)
