@@ -1,5 +1,6 @@
 #Höfundur: Huginn Þór Jóhannsson
 from bottle import *
+from sys import argv
 @error(404)
 def error404(error):
     return "404 Not found"
