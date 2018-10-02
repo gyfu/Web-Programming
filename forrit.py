@@ -7,9 +7,9 @@ def error404(error):
 #A liður
 @route('/')
 def index():
-    return "Main index page"
+    return static_file("index.html",root="./index.html")
 @route('/myndir/<mynd>')
-def mynd(mynd):
+def mynd(mynd)
     return mynd
 
 #run(host="localhost",port=8080,debug=True)
