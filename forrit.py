@@ -5,7 +5,7 @@ from sys import argv
 def error404(error):
     return "404 Not found"
 #A liður
-@route('/')
+@route('/index')
 def index():
     return static_file("index.html",root="./index.html")
 @route('/myndir/<mynd>')
