@@ -33,4 +33,4 @@ def bensin():
     return template("bensin",data=data, name=query)
     #return "{}".format(stations)
 #run(host="localhost",port=8080,reloader=True,debug=True)
-run(host="0.0.0.0",port=argv[1],debug=False
+run(host="0.0.0.0",port=argv[1],debug=False)
